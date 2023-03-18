@@ -1,5 +1,6 @@
 body {
   font-family: 'M PLUS 1p', sans-serif;
+  height: -webkit-fill-available;
 }
 
 p {
@@ -14,6 +15,7 @@ hr {
 
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 .content-wrap{
