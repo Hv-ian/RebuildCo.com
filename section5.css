@@ -1,0 +1,21 @@
+.section5 {
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  justify-content: center;
+  font-stretch: expanded;
+}
+
+.section5 p {
+  font-size: 45px;
+  color: white;
+  margin-bottom: 0;
+  font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+  font-stretch: expanded;
+  font-weight: 900;
+}
+
+
+.s5_hr {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}

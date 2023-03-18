@@ -1,0 +1,75 @@
+.section10 {
+  margin-top: 0;
+  padding-top: 0;
+  background-color: rgba(229, 226, 226, 0.687);
+}
+.s10_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.s10_text h3 {
+  font-size: 20px;
+  color: rgb(255, 191, 0);
+  font-family: 'Phudu', cursive;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.s10_text h1 {
+  margin-top: 2px;
+  padding-top: 0px;
+  font-size: 45px;
+  font-family: 'Phudu', cursive;
+}
+
+.s10_img_box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 217, 0);
+  border-radius: 50px;
+  text-align: center;
+}
+
+.s10_img1 {
+  margin-top: 25px;
+}
+
+.s10_steps {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.s10_hr {
+  width: 10%;
+}
+.s10_step {
+  text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 200px;
+}
+
+.s10_img2 {
+  margin-top: 17px;
+}
+
+.s10_img3 {
+  margin-top: 17px;
+}
+
+.s10_img4 {
+  margin-top: 23px;
+}
+
+.s10_text1 {
+  font-size: 20px;
+}
+
+.s10_text2 {
+  font-size: 12px;
+  color: gray;
+}

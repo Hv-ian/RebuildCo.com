@@ -1,0 +1,96 @@
+.section1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.27)), url(pictures/room.png);
+    background-size: 100%;
+  width: 100%;
+  height: 100%;
+  font-family: 'Phudu', cursive;
+}
+
+.section1 h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(255, 213, 0);
+  margin-bottom: 0;
+}
+
+.section1 h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.section1 p{
+  color: white;
+}
+
+
+.section1 hr {
+  height: 3px;
+  background-color: rgb(255, 208, 0);
+  border: none;
+  margin-top: 200px;
+}
+
+.s1_btn_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 50px;
+
+  
+}
+.s1_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.s1_img_text {
+  display: flex;
+  
+}
+
+.s1_img_box {
+  animation: fadeIn 5s;
+  margin-top: 50px;
+  height: 80%;
+  justify-content: baseline;
+  text-align: right;
+  
+}
+
+.s1_img {
+  filter: brightness(80%);
+  background: linear-gradient();
+  height: 80%;
+  width: 80%;
+}
+
+.prjctn_btn {
+  background: #282936;
+  padding: 10px 2rem;
+  outline-offset: 3px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  border-radius: 100rem;
+  transition: 0.1s;
+  font-weight: 600;
+}
+
+.prjctn_btn:hover {
+  outline-offset: 4.5px;
+  background: #FEBF00;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: black;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+

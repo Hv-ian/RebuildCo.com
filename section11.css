@@ -1,0 +1,22 @@
+.section11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgba(255, 196, 0, 0.671), rgba(216, 186, 18, 0.491)), url(pictures/duringwork2.jpeg);
+  background-size: 100%;
+}
+
+.s11_text1 {
+  color: rgba(255, 255, 255, 0.768);
+  font-size: 55px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.s11_text2 {
+  color: rgba(255, 255, 255, 0.612);
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 15px;
+}

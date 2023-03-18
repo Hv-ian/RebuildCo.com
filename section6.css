@@ -1,0 +1,134 @@
+.section6 {
+  display: flex;
+}
+
+.s6_imges {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 5px;
+  row-gap: 10px;
+
+}
+
+.s6_img_box {
+  cursor: pointer;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+#s6_box1 {
+  background-image: url(pictures/badkamer/badkamer2.jpeg);
+  background-size: 150%;
+  background-position-x: 70%;
+}
+
+#s6_box2 {
+  background-image: url(pictures/badkamer/badkamer1.jpeg);
+  background-size: 150%;
+  background-position-x: 10%;
+}
+
+#s6_box3 {
+  background-image: url(pictures/badkamer/badkamer5.jpeg);
+  background-size: 100%;
+  background-position-x: 10%;
+  background-position-y: -50px;
+}
+#s6_box4 {
+  background-image: url(pictures/badkamer/badkamer4.jpeg);
+  background-size: 80%;
+  background-position-x: 10%;
+  background-position-y: -150px;
+}
+#s6_box5 {
+  background-image: url(pictures/gang/gorc1.jpeg);
+  background-size: 170%;
+  background-position-x: 50%;
+  background-position-y: 5px;
+}
+
+#s6_box6 {
+  background-image: url(pictures/gang/gorc2.jpeg);
+  background-size: 160%;
+  background-position-x: 50%;
+  background-position-y: 5px;
+}
+#s6_box7 {
+  background-image: url(pictures/gang/gorc3.jpeg);
+  background-size: 160%;
+  background-position-x: 50%;
+  background-position-y: 5px;
+}
+
+#s6_box8 {
+  background-image: url(pictures/gang/gorc4.jpeg);
+  background-size: 160%;
+  background-position-x: 50%;
+  background-position-y: 3px;
+}
+#s6_box9 {
+  background-image: url(pictures/gang/gorc5.jpeg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: 0px;
+}
+#s6_box10 {
+  background-image: url(pictures/gang/gorc6.jpeg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: 20px;
+}
+#s6_box11 {
+  background-image: url(pictures/huis/huis4.jpeg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: -30px;
+}
+#s6_box12 {
+  background-image: url(pictures/tuin/tuin3.jpeg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: 20px;
+}
+#s6_box13 {
+  background-image: url(pictures/tuin/tuin4.jpeg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: 40px;
+}
+
+#s6_box14 {
+  background-image: url(pictures/tuin/tuin6.jpeg);
+  background-size: 120%;
+  background-position-x: 50%;
+  background-position-y: 5px;
+}
+
+#s6_box15 {
+  background-image: url(pictures/woonkamer/woonkamer1.jpeg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: -55px;
+}
+
+
+
+#s6_box17 {
+  background-image: url(pictures/badkamer/badkamer8.jpeg);
+  background-size: 100%;
+  background-position-x: 50%;
+  background-position-y: -5px;
+}
+
+
+

@@ -1,0 +1,42 @@
+.section2 {
+  display: flex;
+  margin: 10px 100px 100px 100px;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.s2_text1 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.s2_hr {
+  width: 20%;
+}
+.s2_text1_box {
+  flex: 2;
+}
+.s2_text2_box {
+  flex: 1;
+}
+.section2 h2 {
+font-size: 30px;
+font-family: 'Phudu', cursive;
+color: rgb(255, 204, 0);
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+.section2 h1 {
+  font-size: 55px;
+  font-weight: bolder;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.s2_under_text {
+color: rgba(128, 128, 128, 0.547);
+font-size: larger;
+}
