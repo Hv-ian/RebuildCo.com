@@ -2,6 +2,10 @@ body {
   font-family: 'Phudu';
 }
 
+p {
+  font-family: 'Phudu, cursive;';
+}
+
 hr {
   height: 3px;
   background-color: rgb(255, 208, 0);
