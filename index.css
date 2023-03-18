@@ -276,6 +276,10 @@ nav .icon-burger .line {
 }
 
 @media screen and (max-width: 768px) {
+  
+  .section3 {
+    display: none;
+  }
   nav .logo {
     float: none;
     width: auto;
