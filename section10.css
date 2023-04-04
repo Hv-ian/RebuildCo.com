@@ -12,7 +12,7 @@
 .s10_text h3 {
   font-size: 20px;
   color: rgb(255, 191, 0);
-  font-family: 'Phudu', cursive;
+  font-family: 'Phudu';
   margin-top: 0px;
   padding-top: 20px;
 }
@@ -21,7 +21,7 @@
   margin-top: 2px;
   padding-top: 0px;
   font-size: 45px;
-  font-family: 'Phudu', cursive;
+  font-family: 'phudu';
 }
 
 .s10_img_box {
