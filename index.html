@@ -2,6 +2,7 @@
 <html lang="nl">
 
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" ></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -445,11 +446,12 @@
     </div>
   </section>
 
-  <section class="section8" id="about">
+  <section class="section8 covers8" id="about">
     <div class="s8_title">
       <p class="s8_text1">All about REBUILD CO</p>
       <p class="s8_text2" id="s8T1">ONS VERHAAL</p>
-      <p class="s8_text3" id="s8T2">Ons team van bekwame vakmensen en ontwerpers zal nauw met u samenwerken om eenn persoonlijk
+      <p class="s8_text3" id="s8T2">Ons team van bekwame vakmensen en ontwerpers zal nauw met u samenwerken om een
+        ​​persoonlijk
         plan te maken dat
         voldoet aan uw unieke behoeften en specificaties. </p>
     </div>
@@ -619,35 +621,59 @@
       </div>
     </div>
 
-      <div class="s12_contact-form">
-        <span class="s12_heading">Contact Us</span>
-        <form>
-          <label for="message" id="s12T2">Laat ons uw wensen weten:</label>
-          <textarea id="message" name="message" required="" placeholder="*"></textarea>
-          <label for="name" id="s12T3">Naam:</label>
-          <input type="text" required="" placeholder="*">
-          <label for="email" id="s12T4">E-mail:</label>
-          <input type="email" id="email" name="email" required="" placeholder="*">
-          <label for="phone" id="s12T5">Telefoonnummer:</label>
-          <input type="tel" id="phone" name="phone" required="" placeholder="*">
-          <button class="continue-application">
-            <div>
-              <div class="pencil"></div>
-              <div class="folder">
-                <div class="top">
-                  <svg viewBox="0 0 24 27">
-                    <path
-                      d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z">
-                    </path>
-                  </svg>
-                </div>
-                <div class="paper"></div>
+    <div class="s12_contact-form">
+      <span class="s12_heading">Contact Us</span>
+      <form>
+        <label for="message" id="s12T2">Laat ons uw wensen weten:</label>
+        <textarea id="message" name="message" required="" placeholder="*"></textarea>
+        <label for="name" id="s12T3">Naam:</label>
+        <input type="text" id="sendername" required="" placeholder="*">
+        <label for="email" id="s12T4">E-mail:</label>
+        <input type="email" id="email" name="email" required="" placeholder="*">
+        <label for="phone" id="s12T5">Telefoonnummer:</label>
+        <input type="tel" id="phone" name="phone" required="" placeholder="*">
+        <button onclick="sendMail()" class="continue-application" type="button">
+          <div>
+            <div class="pencil"></div>
+            <div class="folder">
+              <div class="top">
+                <svg viewBox="0 0 24 27">
+                  <path
+                    d="M1,0 L23,0 C23.5522847,-1.01453063e-16 24,0.44771525 24,1 L24,8.17157288 C24,8.70200585 23.7892863,9.21071368 23.4142136,9.58578644 L20.5857864,12.4142136 C20.2107137,12.7892863 20,13.2979941 20,13.8284271 L20,26 C20,26.5522847 19.5522847,27 19,27 L1,27 C0.44771525,27 6.76353751e-17,26.5522847 0,26 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z">
+                  </path>
+                </svg>
               </div>
+              <div class="paper"></div>
             </div>
-            Gratis offerte
-          </button>
-        </form>
-      </div>
+          </div>
+          Gratis offerte
+        </button>
+      </form>
+    </div>
+    
+    <script>
+      function sendMail(){
+        (function(){
+          emailjs.init("PurUThnIY6cAsNjrv");
+        })();
+  
+        var params = {
+          sendername: document. querySelector ("#sendername"). value,
+          phone: document .querySelector ("#phone"). value,
+          replyto: document. querySelector ("#email"). value,
+          message: document. querySelector ("#message"). value,
+        };
+  
+        var serviceID = "service_flraa8x"; // Email Service ID
+        var templateID = "template_rjlqrxv";
+  
+        emailjs.send (serviceID, templateID, params)
+        .then (res => {
+          alert("Email Sent Successfully! We will contact you withiin 24 hours!");
+        })
+        .catch();
+      }
+    </script>
 
   </section>
 
@@ -669,7 +695,7 @@
         </div>
         <div>
           <p class="footer_text1" id="s12T8">E-mail ons</p>
-          <p class="footer_text2">foo@mail.com</p>
+          <p class="footer_text2">Rebuildco.nl@outlook.com</p>
         </div>
       </div>
 
@@ -679,7 +705,7 @@
         </div>
         <div>
           <p class="footer_text1" id="s12T9">Bel ons</p>
-          <p class="footer_text2">+31 6 11 22 33</p>
+          <p class="footer_text2">+31 6 84 03 35 08</p>
         </div>
       </div>
     </div>
