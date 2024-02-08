@@ -74,9 +74,9 @@ const s8T12 = document.getElementById('s8T12')
 const s8T13 = document.getElementById('s8T13')
 const s8Ta = document.getElementById('s8Ta')
 
-const s9T1 = document.getElementById('s9T1')
-const s9T2 = document.getElementById('s9T2')
-const s9T3 = document.getElementById('s9T3')
+//const s9T1 = document.getElementById('s9T1')
+//const s9T2 = document.getElementById('s9T2')
+//const s9T3 = document.getElementById('s9T3')
 
 const s10T1 = document.getElementById('s10T1')
 const s10T2 = document.getElementById('s10T2')
@@ -182,9 +182,9 @@ button.forEach(el => {
     s8T13.innerHTML = data[attr].s8T13
     s8Ta.innerHTML = data[attr].s8Ta
 
-    s9T1.innerHTML = data[attr].s9T1
-    s9T2.innerHTML = data[attr].s9T2
-    s9T3.innerHTML = data[attr].s9T3
+    //s9T1.innerHTML = data[attr].s9T1
+    //s9T2.innerHTML = data[attr].s9T2
+    //s9T3.innerHTML = data[attr].s9T3
 
     s10T1.innerHTML = data[attr].s10T1
     s10T2.innerHTML = data[attr].s10T2
@@ -290,9 +290,9 @@ data = {
     s8T13: "Kwaliteit is een van onze topprioriteiten bij Rebuild CO. We Begrijpen dat als het gaat om herbouwen en renoveren, kwalitatief vakmanschap essentieel is om de lange levensduur en functionaliteit van uw ruimte te garanderen.",
     s8Ta: "Over Ons",
 
-    s9T1: "Tevreden Klanten",
-    s9T2: "Projecten Afgerond",
-    s9T3: "Werknemers in dienst",
+    //s9T1: "Tevreden Klanten",
+    //s9T2: "Projecten Afgerond",
+    //s9T3: "Werknemers in dienst",
 
     s10T1: "Stap voor Stap",
     s10T2: "Hoe het werkt",
@@ -395,9 +395,9 @@ data = {
     s8T13: "Quality is one of our top priorities at Rebuild CO. We understand that when it comes to rebuilding and renovating, quality workmanship is essential to ensure the longevity and functionality of your space.",
     s8Ta: "About Us",
 
-    s9T1: "Sutisfied Customers",
-    s9T2: "Completed Projects",
-    s9T3: "Workers Employed",
+    //s9T1: "Sutisfied Customers",
+    //s9T2: "Completed Projects",
+    //s9T3: "Workers Employed",
 
     s10T1: "Step by Step",
     s10T2: "How It Works",
@@ -501,9 +501,9 @@ data = {
     s8T13: "Качество - один из наших главных приоритетов в Rebuild CO. Мы понимаем, что когда речь идет о восстановлении и ремонте, качественное мастерство является необходимым условием для обеспечения долговечности и функциональности вашего пространства.",
     s8Ta: "О нас",
 
-    s9T1: "Довольные клиенты",
-    s9T2: "Завершенные проекты",
-    s9T3: "Число работников",
+    //s9T1: "Довольные клиенты",
+    //s9T2: "Завершенные проекты",
+    //s9T3: "Число работников",
     s10T1: "Пошагово",
     s10T2: "Как это работает",
     s10T3: "Запросите бесплатное предложение или назначьте встречу.",
